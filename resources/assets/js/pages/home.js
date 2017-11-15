@@ -1,11 +1,7 @@
 require('../app');
 
-
-
 import PublicPages from '../components/hud/PublicPages.vue';
 import navTop from '../components/hud/navTop.vue';
-
-
 
 let app = new Vue({
     name: 'App',

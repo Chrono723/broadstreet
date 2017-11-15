@@ -1,0 +1,14 @@
+.loading-block{
+  width:100%;
+  background-color: $OL-Nav-Background;
+  position:fixed;
+  z-index: 1100;
+  .loading-gif{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

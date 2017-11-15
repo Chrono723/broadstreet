@@ -15,7 +15,7 @@
                         <li class="nav-divider" aria-hidden="true"><a href="javascript:void(0)">|</a></li>
 
                         <li>
-                            <a @click="directTo('news')" href="#news">News </a>
+                            <a href="#news">News </a>
                             <ul class="dropdown">
                                 <li><a href="#news">Main</a></li>
                             </ul>

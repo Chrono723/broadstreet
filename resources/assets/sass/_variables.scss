@@ -1,27 +1,81 @@
 
+//Text
+/*  GuildWars 2 font */           $font-family-GW2: 'GW2', 'Georgia', normal;
+/*  Wee - Beats */                $font-family-Beats: 'Beats', 'Georgia', normal;
+/*  Crackin */                    $font-family-Crackin: 'Crackin', 'Georgia', normal;
+/*  Main Text Size */             $OL-Text-Size-Large: 20px;
+/*  Medium Text Size */           $OL-Text-Size-Medium: 10px;
+/*  Overlord Medium Text Size */  $OL-Text-Shadow: rgb(3, 3, 3) 2px 3px 1px;
+
+
+
+/* Controls Text Color */$OL-Body-Color: #adadad;
+
+//Alert Colors
+$OL-info-color: rgba(177, 177, 177, 0.71);
+$OL-primary-color: #04324f;
+$OL-neutral-color: #000;
+$OL-failed-color: rgba(228, 3, 3, 0.46);
+$OL-success-color: #2db31a;
+$OL-warning-color: #f7f226;
+
+// Overlord Backgrounds
+
+@mixin gow-mac-gradient() {
+  background : -moz-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  background : -webkit-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  background : -webkit-gradient(radial,47.84% 352.87% ,0 , 47.84% 352.87%, 994.08 ,color-stop(0,rgba(35, 148, 198, 1) ),color-stop(0.0499,rgba(32, 141, 191, 1) ),color-stop(0.3676,rgba(18, 101, 147, 1) ),color-stop(0.5289,rgba(12, 85, 130, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
+  background : -o-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  background : -ms-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
+  background : radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+}
+
+@mixin gow-mac-gradient-menu() {
+  background : -moz-radial-gradient(116.84% 62.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 3.99%, rgba(18, 101, 147, 1) 43.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  background : -webkit-radial-gradient(116.84% 62.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 3.99%, rgba(18, 101, 147, 1) 43.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  background : -webkit-gradient(radial,116.84% 62.87%,0 , 116.84% 62.87%, 994.08 ,color-stop(0,rgba(35, 148, 198, 1) ),color-stop(0.0399,rgba(32, 141, 191, 1) ),color-stop(0.4376,rgba(18, 101, 147, 1) ),color-stop(0.5289,rgba(12, 85, 130, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
+  background : -o-radial-gradient(116.84% 62.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 3.99%, rgba(18, 101, 147, 1) 43.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  background : -ms-radial-gradient(116.84% 62.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 3.99%, rgba(18, 101, 147, 1) 43.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
+  background : radial-gradient(116.84% 62.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 3.99%, rgba(18, 101, 147, 1) 43.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+}
+@mixin overlord-shadow() {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 1px 8px, inset rgba(0, 0, 0, 0.4) 0 0 0 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 1px 8px, inset rgba(0, 0, 0, 0.4) 0 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 1px 8px, inset rgba(0, 0, 0, 0.4) 0 0 0 1px;
+}
+
+
+/*  Nav Design  */              $OL-Nav-Background: #ffffff;
+
+$OL-Nav-Background-Trans: rgba(22, 22, 22, 0.8);
+
 // Body
-$body-bg: #f5f8fa;
+$body-bg: $OL-Nav-Background;
 
 // Borders
-$laravel-border-color: darken($body-bg, 10%);
-$list-group-border: $laravel-border-color;
-$navbar-default-border: $laravel-border-color;
-$panel-default-border: $laravel-border-color;
-$panel-inner-border: $laravel-border-color;
+//$laravel-border-color: darken($body-bg, 10%);
+//$list-group-border: $laravel-border-color;
+//$navbar-default-border: $laravel-border-color;
+//$panel-default-border: $laravel-border-color;
+//$panel-inner-border: $laravel-border-color;
 
 // Brands
-$brand-primary: #3097D1;
+$brand-primary: $OL-primary-color;
 $brand-info: #8eb4cb;
-$brand-success: #2ab27b;
-$brand-warning: #cbb956;
-$brand-danger: #bf5329;
+$brand-success: $OL-success-color;
+$brand-warning: $OL-warning-color;
+$brand-danger: $OL-failed-color;
 
 // Typography
-$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
 $text-color: #636b6f;
+
 
 // Navbar
 $navbar-default-bg: #fff;
