@@ -3,41 +3,16 @@
         <div id="fullscreen-banner" class="parallax text-center vertical-align overlord-parallax-back">
             <div class="parallax-overlord" style="margin-bottom: 47px;">
 
-                <!-- Background  -->
+                <!-- Background-Color  -->
                 <div class='layer-1 layer' data-depth='.30' data-type='parallax' data-direction='down'></div>
 
-                <!-- Molecules Drop   -->
+                <!-- Ingredients   -->
                 <div class='layer-2 layer' data-depth='0.50' data-type='parallax' data-direction='down'></div>
 
-                <!-- Molecules Back    -->
-                <div class='layer-3 layer' data-depth='0.85' data-type='parallax' data-direction='down'>
-                </div>
-
-                <!-- Icon Layer  -->
-                <div class='layer-4 layer' data-depth='0.95' data-type='parallax' data-direction='down'>
-                    <div class="parallax-box" :style="'height: '+ windowHeight +'.px;'">
-                        <img src="images/backgrounds/GowMacParallax/gow-mac-icon-single.png" class="parallax-img">
-                    </div>
-
-                </div>
-
-                <!-- Logo  -->
-                <div class='layer-5 layer' data-depth='0.75' data-type='parallax' data-direction='down'>
-                    <div class="parallax-box" :style="'height: '+ windowHeight +'.px;'">
-                        <img src="images/backgrounds/GowMacParallax/gow-mac-logo-single.png" class="parallax-img">
-                    </div>
-                </div>
-
-                <!-- Main Body -->
-                <div class='layer-overlay layer' data-depth='1.00' data-type='parallax' data-direction='down'>
-                    <div class="parallax-box-body" :style="'max-height: '+ windowHeight +'.px; /* margin-top: ' + windowHeight + '.px;*/'">
-                        <img src="images/backgrounds/GowMacParallax/main-body.png" class="parallax-img">
-                    </div>
-
-                </div>
+                <!-- Piazzas    -->
+                <div class='layer-3 layer' data-depth='0.85' data-type='parallax' data-direction='down'></div>
 
             </div>
-
         </div>
     </div>
 
@@ -60,9 +35,7 @@
 
         },
         computed:{
-            windowHeight:function(){
-                return $(window).height();
-            }
+            windowHeight:function(){return $(window).height();}
         },
 
 

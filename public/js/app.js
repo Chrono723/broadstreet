@@ -54601,31 +54601,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -54688,149 +54663,62 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      {
-        staticClass:
-          "parallax text-center vertical-align overlord-parallax-back",
-        attrs: { id: "fullscreen-banner" }
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass: "parallax-overlord",
-            staticStyle: { "margin-bottom": "47px" }
-          },
-          [
-            _c("div", {
-              staticClass: "layer-1 layer",
-              attrs: {
-                "data-depth": ".30",
-                "data-type": "parallax",
-                "data-direction": "down"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "layer-2 layer",
-              attrs: {
-                "data-depth": "0.50",
-                "data-type": "parallax",
-                "data-direction": "down"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "layer-3 layer",
-              attrs: {
-                "data-depth": "0.85",
-                "data-type": "parallax",
-                "data-direction": "down"
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "layer-4 layer",
-                attrs: {
-                  "data-depth": "0.95",
-                  "data-type": "parallax",
-                  "data-direction": "down"
-                }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "parallax-box",
-                    style: "height: " + _vm.windowHeight + ".px;"
-                  },
-                  [
-                    _c("img", {
-                      staticClass: "parallax-img",
-                      attrs: {
-                        src:
-                          "images/backgrounds/GowMacParallax/gow-mac-icon-single.png"
-                      }
-                    })
-                  ]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "layer-5 layer",
-                attrs: {
-                  "data-depth": "0.75",
-                  "data-type": "parallax",
-                  "data-direction": "down"
-                }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "parallax-box",
-                    style: "height: " + _vm.windowHeight + ".px;"
-                  },
-                  [
-                    _c("img", {
-                      staticClass: "parallax-img",
-                      attrs: {
-                        src:
-                          "images/backgrounds/GowMacParallax/gow-mac-logo-single.png"
-                      }
-                    })
-                  ]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "layer-overlay layer",
-                attrs: {
-                  "data-depth": "1.00",
-                  "data-type": "parallax",
-                  "data-direction": "down"
-                }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "parallax-box-body",
-                    style:
-                      "max-height: " +
-                      _vm.windowHeight +
-                      ".px; /* margin-top: " +
-                      _vm.windowHeight +
-                      ".px;*/"
-                  },
-                  [
-                    _c("img", {
-                      staticClass: "parallax-img",
-                      attrs: {
-                        src: "images/backgrounds/GowMacParallax/main-body.png"
-                      }
-                    })
-                  ]
-                )
-              ]
-            )
-          ]
-        )
-      ]
-    )
-  ])
+  return _vm._m(0, false, false)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass:
+            "parallax text-center vertical-align overlord-parallax-back",
+          attrs: { id: "fullscreen-banner" }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "parallax-overlord",
+              staticStyle: { "margin-bottom": "47px" }
+            },
+            [
+              _c("div", {
+                staticClass: "layer-1 layer",
+                attrs: {
+                  "data-depth": ".30",
+                  "data-type": "parallax",
+                  "data-direction": "down"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", {
+                staticClass: "layer-2 layer",
+                attrs: {
+                  "data-depth": "0.50",
+                  "data-type": "parallax",
+                  "data-direction": "down"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", {
+                staticClass: "layer-3 layer",
+                attrs: {
+                  "data-depth": "0.85",
+                  "data-type": "parallax",
+                  "data-direction": "down"
+                }
+              })
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {

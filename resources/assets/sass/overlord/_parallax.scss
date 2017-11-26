@@ -38,17 +38,10 @@
 
 }
 
-.layer-1 {            background: url("../images/backgrounds/GowMacParallax/background.png") no-repeat top;  height: 3000px;  }
-.layer-2 {            background: url("../images/backgrounds/GowMacParallax/molecule-drop.png")no-repeat top;  height: 3000px;  }
-.layer-3 {            background: url("../images/backgrounds/GowMacParallax/molecule-back.png")no-repeat top;  height: 3000px;  }
-.layer-4 {             height: 3000px;  }
-.layer-5 {            height: 3000px;  }
-.layer-overlay {       height: 6000px;  }
+.layer-1 {            background-color: #ffd3d3; height: 3000px;  }
+.layer-2 {            background: url("../images/backgrounds/BroadStreetParallax/Ingredients.png")no-repeat top;  height: 3000px;  }
+.layer-3 {            background: url("../images/backgrounds/BroadStreetParallax/Pizzas.png")no-repeat top;  height: 3000px;  }
 
-
-.parallax-8 {
-  background-image: url("../images/backgrounds/trainstation.jpg")!important;
-}
 
 @media only screen and (max-width: 768px) {
   .hero {
