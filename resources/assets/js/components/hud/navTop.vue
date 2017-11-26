@@ -77,6 +77,9 @@
                     <!--mega menu end-->
 
                 </nav>
+                <div class="nav-bottom">
+
+                </div>
             </div>
         </div>
 
@@ -112,19 +115,10 @@
         },
         methods: {
             initSticky() {
-                let $navbarSticky, navbarHeight, $brandLogo, centerLogoNormalHeight, centerLogoStickyHeight, bottomNav, navMenu;
+                let $navbarSticky, navbarHeight, $brandLogo;
                 $navbarSticky = $(".js-navbar-sticky").not(".l-navbar_s-left");
                 navbarHeight = $navbarSticky.height();
                 $brandLogo = $(".logo-brand");
-                centerLogoNormalHeight = 100;
-                centerLogoStickyHeight = 60;
-
-                bottomNav = $("#Overlord-Nav-Bottom");
-                navMenu = $("#overlord-menu");
-
-                if ($navbarSticky.hasClass("l-navbar_s-center")) {
-                    $brandLogo.height(centerLogoNormalHeight);
-                }
 
                 $navbarSticky.sticky({
                     className: "l-navbar-wrapper_has-sticky",
@@ -132,21 +126,10 @@
                     zIndex: 10000,
                     bottomSpacing: 100
                 }).on("sticky-start", function() {
-                    //bottomNav.show();
-                    //navMenu.show();
-                    if ($navbarSticky.hasClass("l-navbar_s-center")) {
-                        $brandLogo.height(0);
-                        setTimeout(function() {
-                            $brandLogo.addClass("sticky-fix").height(centerLogoStickyHeight);
-                        }, 300);
-                    }
+
+
                 }).on("sticky-end", function () {
                     $navbarSticky.parent().height(navbarHeight);
-                    //bottomNav.hide();
-                    // navMenu.hide();
-                    if ($navbarSticky.hasClass("l-navbar_s-center")) {
-                        $brandLogo.removeClass("sticky-fix").height(centerLogoNormalHeight);
-                    }
                 });
             },
             logOut(){

@@ -15,19 +15,6 @@
 
     $document.ready(function () {
 
-        /*==============================================
-         Retina support added
-         ===============================================*/
-        if (window.devicePixelRatio > 1) {
-            $(".retina").imagesLoaded(function () {
-                $(".retina").each(function () {
-                    var src = $(this).attr("src").replace(".", "@2x.");
-                    var h = $(this).height();
-                    $(this).attr("src", src).css({height: h, width: "auto"});
-                });
-            });
-        }
-
 
         /*==============================================
          Smooth scroll init
@@ -112,16 +99,6 @@
             e.preventDefault();
             $(prnt).prev().css({opacity: 1})
         });
-
-        $(".career-details-info .apply-btn").on("click", function () {
-
-        });
-
-
-        /*==============================================
-         Count to init
-         ===============================================*/
-
 
 
         /*==============================================

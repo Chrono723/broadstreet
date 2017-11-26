@@ -101,9 +101,9 @@ let app = new Vue({
             self.location.current.target = hash.split('/')[2];
 
             if(self.location.current.sub !== undefined){
-                $(document).prop('title', 'GM | ' + this.jsUcfirst(self.location.current.main) + ' | ' + this.jsUcfirst(self.location.current.sub));
+                $(document).prop('title', 'Broad Street Pizza | ' + this.jsUcfirst(self.location.current.main) + ' | ' + this.jsUcfirst(self.location.current.sub));
             }else{
-                $(document).prop('title', 'GM | ' + this.jsUcfirst(self.location.current.main));
+                $(document).prop('title', 'Broad Street Pizza | ' + this.jsUcfirst(self.location.current.main));
             }
         },
         jsUcfirst(text) {
