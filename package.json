@@ -23,6 +23,7 @@
   "dependencies": {
     "bootbox": "^4.4.0",
     "bootstrap-touchspin": "^3.1.1",
+    "bourbon": "^4.3.4",
     "compass-mixins": "^0.12.10",
     "dropzone": "^5.1.1",
     "flexslider": "^2.6.4",
@@ -44,6 +45,7 @@
     "malihu-custom-scrollbar-plugin": "^3.1.5",
     "owl.carousel": "^2.2.0",
     "smooth-scroll": "^12.1.5",
-    "sticky-kit": "^1.1.3"
+    "sticky-kit": "^1.1.3",
+    "susy": "^3.0.1"
   }
 }
