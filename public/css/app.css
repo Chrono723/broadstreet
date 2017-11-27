@@ -23559,7 +23559,7 @@ div.Overlord-Card {
 }
 
 .layer-1 {
-  background-color: #ffd3d3;
+  background-color: #ff8873;
   height: 3000px;
 }
 
@@ -29904,6 +29904,7 @@ pre {
   float: left;
   height: 50px;
   margin-right: 30px;
+  position: absolute;
   font-size: 20px;
   line-height: 50px;
   font-weight: 600;
@@ -30268,10 +30269,7 @@ pre {
     width: 100%;
     top: 0px;
     z-index: 1000;
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
     -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   }
@@ -30283,18 +30281,12 @@ pre {
   .l-navbar_t-dark .showhide em,
   .l-navbar_t-semi-trans .showhide em,
   .l-navbar_t-dark-trans .showhide em {
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
   }
   .l-navbar_t-dark,
   .l-navbar_t-semi-trans,
   .l-navbar_t-dark-trans {
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
   }
@@ -30320,7 +30312,7 @@ pre {
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
   .logo-brand {
-    height: 100px;
+    height: 180px;
     display: inline-block;
   }
   .l-navbar-wrapper_has-sticky .logo-brand {
@@ -30371,16 +30363,10 @@ pre {
     transition: height .3s, line-height .3s, margin .3s;
   }
   .l-navbar_t-light {
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
   }
   .l-navbar_t-dark {
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
   }
   .l-navbar_t-dark .menuzord-menu > li > a,
   .l-navbar_t-semi-trans .menuzord-menu > li > a,
@@ -30395,10 +30381,7 @@ pre {
   .l-navbar_t-semi-trans {
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
   }
@@ -30451,10 +30434,7 @@ pre {
   }
   .l-navbar-wrapper_has-sticky .l-navbar_t-semi-trans,
   .l-navbar-wrapper_has-sticky .l-navbar_t-dark-trans {
-    background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-    background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+    background-color: #801400;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
   }
@@ -31493,10 +31473,7 @@ body.left-nav-fixed {
 }
 
 .overlay-dark {
-  background: -ms-radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-  background: radial-gradient(47.84% 352.87%, #2394c6 0%, #208dbf 4.99%, #126593 36.76%, #0c5582 52.89%, black 100%);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+  background-color: #801400;
   -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 1px 8px, inset rgba(0, 0, 0, 0.4) 0 0 0 1px;
   box-shadow: rgba(0, 0, 0, 0.7) 0 1px 8px, inset rgba(0, 0, 0, 0.4) 0 0 0 1px;
   margin-top: 115px;

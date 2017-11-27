@@ -6,7 +6,7 @@
                 <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
 
                     <a  href="#home" class="logo-brand">
-                        <img class="retina" src="images/logos/gow-mac/gow-mac-nav-logo.png" alt="Massive">
+                        <img class="retina" src="images/logos/BroadStreet/BS-Header.png" alt="Broad Street">
                     </a>
 
                     <!--mega menu start-->
@@ -78,6 +78,16 @@
 
                 </nav>
                 <div class="nav-bottom">
+                    <ul  class="menu">
+                        <li class="menu-item "><a href=""><i class="po po-pizza"></i>Pizza</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-burger"></i>Burgers</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Salads</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-tacos"></i>Tacos</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-wraps"></i>Wraps</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-fries"></i>Fries</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Salads</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-drinks"></i>Drinks</a></li>
+                    </ul>
 
                 </div>
             </div>

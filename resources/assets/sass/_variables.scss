@@ -22,14 +22,7 @@ $OL-warning-color: #f7f226;
 // Overlord Backgrounds
 
 @mixin gow-mac-gradient() {
-  background : -moz-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
-  background : -webkit-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
-  background : -webkit-gradient(radial,47.84% 352.87% ,0 , 47.84% 352.87%, 994.08 ,color-stop(0,rgba(35, 148, 198, 1) ),color-stop(0.0499,rgba(32, 141, 191, 1) ),color-stop(0.3676,rgba(18, 101, 147, 1) ),color-stop(0.5289,rgba(12, 85, 130, 1) ),color-stop(1,rgba(0, 0, 0, 1) ));
-  background : -o-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
-  background : -ms-radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
-  background : radial-gradient(47.84% 352.87%, rgba(35, 148, 198, 1) 0%, rgba(32, 141, 191, 1) 4.99%, rgba(18, 101, 147, 1) 36.76%, rgba(12, 85, 130, 1) 52.89%, rgba(0, 0, 0, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+  background-color: #801400;
 }
 
 @mixin gow-mac-gradient-menu() {
