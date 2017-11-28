@@ -12,55 +12,30 @@
                     <!--mega menu start-->
                     <ul id="overlord-menu" class="menuzord-menu menuzord-right c-nav_s-standard">
 
-                        <li class="nav-divider" aria-hidden="true"><a href="javascript:void(0)">|</a></li>
-
                         <li>
-                            <a href="#news">News </a>
+                            <a href="#menu/all">Menu</a>
                             <ul class="dropdown">
-                                <li><a href="#news">Main</a></li>
+                                <li><a href="#menu/pizza">Pizza</a></li>
+                                <li><a href="#menu/subs">Subs</a></li>
+                                <li><a href="#menu/sides">Breads & Sides</a></li>
+                                <li><a href="#menu/wings">Wings</a></li>
+                                <li><a href="#menu/pastas">Pastas</a></li>
+                                <li><a href="#menu/desserts">Desserts</a></li>
+                                <li><a href="#menu/all">All Items</a></li>
                             </ul>
                         </li>
 
+                        <li><a href="#about">About Us</a></li>
 
-                        <li>
-                            <a href="javascript:void(0)">About</a>
-                            <ul class="dropdown">
-                                <li><a href="#company">About Us</a></li>
-                                <li><a href="#history">Our History</a></li>
-                                <li><a href="#certifications">Certifications</a></li>
-                                <li><a href="#faq">FAQ</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#rewards">Rewards</a></li>
 
-                        <li>
-                            <a href="#products/home">Products</a>
-                            <ul class="dropdown">
-                                <li><a href="#products/chromatographs">Instruments</a></li>
-                                <li><a href="#products/analyzers">Analyzers</a></li>
-                                <li><a href="#products/package-labs">Package Labs</a></li>
-                                <li><a href="#products/detectors">Detectors</a></li>
-                                <li><a href="#products/accessories">Accessories</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#home">Home</a></li>
 
-                        <li>
-                            <a href="javascript:void(0)">Services</a>
-                            <ul class="dropdown">
-                                <li><a href="#services/home">Main</a></li>
-                                <li><a href="#services/technical-assistance">Technical Assistance</a></li>
-                                <li><a href="#services/column-replacement">Column Replacement</a></li>
-                                <li><a href="#services/sales-representative">Sales Representatives</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="#home">Home </a></li>
-
-                        <li class="nav-divider" aria-hidden="true"><a href="javascript:void(0)">|</a></li>
+                        <!-- Order Option -->
+                        <li><a href="#order">Order Now</a></li>
 
                         <!-- Login Information Option -->
-
-                        <li v-if="userInfo === null"><a  href="#login">Login</a></li>
-
+                        <li v-if="userInfo === null"><a  href="#login">Sign In</a></li>
                         <li v-if="userInfo !== null">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                 {{ userInfo.name }}
@@ -77,16 +52,14 @@
                     <!--mega menu end-->
 
                 </nav>
-                <div class="nav-bottom">
+                <div class="secondary-navigation">
                     <ul  class="menu">
                         <li class="menu-item "><a href=""><i class="po po-pizza"></i>Pizza</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-burger"></i>Burgers</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-burger"></i>Breads & Sides</a></li>
                         <li class="menu-item "><a href=""><i class="po po-salads"></i>Salads</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-tacos"></i>Tacos</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-wraps"></i>Wraps</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-fries"></i>Fries</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Salads</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-drinks"></i>Drinks</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-tacos"></i>Wings</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Desserts</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Pastas</a></li>
                     </ul>
 
                 </div>
