@@ -6,7 +6,7 @@
                 <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
 
                     <a  href="#home" class="logo-brand">
-                        <img class="retina" src="images/logos/BroadStreet/BS-Header.png" alt="Broad Street">
+                        <img class="retina" src="images/logos/BroadStreet/BS-Small.png" alt="Broad Street">
                     </a>
 
                     <!--mega menu start-->
@@ -16,10 +16,11 @@
                             <a href="#menu/all">Menu</a>
                             <ul class="dropdown">
                                 <li><a href="#menu/pizza">Pizza</a></li>
+                                <li><a href="#menu/pastas">Pastas</a></li>
+                                <li><a href="#menu/salads">Salads</a></li>
                                 <li><a href="#menu/subs">Subs</a></li>
                                 <li><a href="#menu/sides">Breads & Sides</a></li>
                                 <li><a href="#menu/wings">Wings</a></li>
-                                <li><a href="#menu/pastas">Pastas</a></li>
                                 <li><a href="#menu/desserts">Desserts</a></li>
                                 <li><a href="#menu/all">All Items</a></li>
                             </ul>
@@ -55,11 +56,12 @@
                 <div class="secondary-navigation">
                     <ul  class="menu">
                         <li class="menu-item "><a href=""><i class="po po-pizza"></i>Pizza</a></li>
+                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Pastas</a></li>
                         <li class="menu-item "><a href=""><i class="po po-burger"></i>Breads & Sides</a></li>
                         <li class="menu-item "><a href=""><i class="po po-salads"></i>Salads</a></li>
                         <li class="menu-item "><a href=""><i class="po po-tacos"></i>Wings</a></li>
                         <li class="menu-item "><a href=""><i class="po po-salads"></i>Desserts</a></li>
-                        <li class="menu-item "><a href=""><i class="po po-salads"></i>Pastas</a></li>
+
                     </ul>
 
                 </div>

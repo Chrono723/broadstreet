@@ -596,7 +596,7 @@
   }
 
   .l-navbar-wrapper_has-sticky .logo-brand {
-    height: 60px;
+    // height: 60px;
   }
 
   .body_has-navbar-left .wrapper {
@@ -680,11 +680,4 @@
     bottom: 0;
     width: 100%;
   }
-}
-.nav-bottom{
-  width:75%;
-  background-color: red;
-  height: 100px;
-  position: relative;
-  float: right;
 }
